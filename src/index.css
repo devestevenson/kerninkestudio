@@ -1,0 +1,42 @@
+/* config tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* font family */
+@font-face {
+    font-family: "poppinsItalic";
+    src: url('./assets/fonts/Poppins-Italic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: "poppinsRegular";
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: "poppinsBold";
+    src: url('./assets/fonts/Poppins-Bold.ttf');
+    font-display: swap;
+}
+
+
+/* tailwind components */
+@layer components {
+    .btnNav {
+        @apply py-4 px-8 bg-kerninkYellow rounded-md max-w-max  text-xl font-poppinsRegular text-kerninkBlack transition duration-300 hover:text-kerninkBlack hover:bg-kerninkWhite
+    }
+    .btnAbout {
+        @apply py-4 px-8 border rounded-md max-w-max  text-2xl font-poppinsRegular text-kerninkWhite transition duration-300 hover:text-kerninkBlack hover:bg-kerninkWhite
+    }
+    .btnPortafolio {
+        @apply py-4 px-8 bg-kerninkBlack rounded-md max-w-max  text-2xl font-poppinsRegular text-kerninkWhite transition duration-300 hover:text-kerninkBlack hover:bg-kerninkWhite
+    }
+    .btnServices {
+        @apply py-4 px-8 bg-kerninkYellow rounded-md max-w-max  text-2xl font-poppinsRegular text-kerninkBlack transition duration-300 hover:text-kerninkBlack hover:bg-kerninkWhite
+    }
+    .btnWhatsApp {
+        @apply py-4 px-8 border border-kerninkWhatsApp rounded-[3rem] max-w-max  text-2xl font-poppinsRegular text-kerninkWhatsApp transition duration-300 hover:text-kerninkWhite hover:bg-kerninkWhatsApp
+    }
+}
