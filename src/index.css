@@ -21,6 +21,10 @@
     font-display: swap;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* tailwind components */
 @layer components {
@@ -38,5 +42,8 @@
     }
     .btnWhatsApp {
         @apply py-4 px-8 border border-kerninkWhatsApp rounded-[3rem] max-w-max  text-2xl font-poppinsRegular text-kerninkWhatsApp transition duration-300 hover:text-kerninkWhite hover:bg-kerninkWhatsApp
+    }
+    .imageStyle {
+        @apply w-[322px] h-[322px] border-4 overflow-hidden border-zinc-800 rounded-xl
     }
 }

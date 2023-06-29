@@ -8,9 +8,9 @@ const Hero = () => {
                 SOMOS <span className="text-kerninkYellow font-poppinsBold">KERNINK ESTUDIO</span> Diseñamos la imagen <br /> de tu marca
             </h1>
 
-            <button data-aos="zoom-in" data-aos-duration="800" className="btnAbout mt-12">
+            <a href="#nosotros" data-aos="zoom-in" data-aos-duration="800" className="btnAbout mt-12">
                 Conócenos
-            </button>
+            </a>
         </div>
     </div>
   )
