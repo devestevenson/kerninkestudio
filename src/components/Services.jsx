@@ -1,14 +1,20 @@
 import { ArrowSquareDown } from "@phosphor-icons/react";
 
 const Services = () => {
+
+    //Para reenviar al usuario a WhatsApp
+const handleWhatsAppClick = () => {
+    window.open('https://wa.me/message/SBPDMVUHOTAHJ1', '_blank');
+};
+
   return (
     <>
-        <div className="w-full h-auto mt-[100px] px-5 md:px-10">
+        <div id="servicios" className="w-full h-auto mt-[100px] px-5 md:px-10">
             <div className="w-full h-full bg-kerninkWhite rounded-2xl px-4 md:px-10 pb-10">
 
                 <div className="flex items-center justify-evenly border-b-2 border-gray-200 py-5">
                     <p data-aos="fade-up" data-aos-duration="1000" className="text-kerninkBlack text-base font-poppinsBold">SERVICIOS</p>
-                    <a data-aos="fade-up" data-aos-duration="1000" className="btnWhatsApp" href="/">WhatsApp</a>
+                    <button data-aos="fade-up" data-aos-duration="1000" className="btnWhatsApp" onClick={handleWhatsAppClick}>WhatsApp</button>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 py-12 border-b-2 border-gray-200">

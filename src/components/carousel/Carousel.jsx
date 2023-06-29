@@ -21,7 +21,7 @@ const Carousel = () => {
   return (
     <>
 
-        <section data-aos="zoom-in" data-aos-duration="1100" className='swiperCarousel'>
+        <section id="nosotros" data-aos="zoom-in" data-aos-duration="1100" className='swiperCarousel'>
 
             <Swiper
                 slidesPerView={1}
