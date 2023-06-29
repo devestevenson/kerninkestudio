@@ -20,9 +20,9 @@ const About = () => {
                     Permítenos ser tu aliado creativo y trabajemos juntos 
                 </p>
             </div>
-            <button data-aos="zoom-in" data-aos-duration="1100" className="btnPortafolio my-[60px]">
+            <a href="#portafolio" data-aos="zoom-in" data-aos-duration="1100" className="btnPortafolio my-[60px]">
                 Portafolio
-            </button>
+            </a>
         </div>
     </div>
   )

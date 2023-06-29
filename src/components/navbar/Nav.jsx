@@ -19,18 +19,23 @@ const Nav = () => {
     setSelectedOption(option);
     };
 
+    //Para reenviar al usuario a WhatsApp
+    const handleWhatsAppClick = () => {
+        window.open('https://wa.me/message/SBPDMVUHOTAHJ1', '_blank');
+    };
+
   return (
     <>
 
         <nav className="nav">
             <a href='/' className="navLogo"><img src={Logo} alt={Logo} /></a>
             <ul className="navBox">
-                <li><a href="#" className={selectedOption === 'nosotros' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('nosotros')}>Nosotros</a></li>
-                <li><a href="#" className={selectedOption === 'portafolio' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('portafolio')}>Portafolio</a></li>
-                <li><a href="#" className={selectedOption === 'servicios' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('servicios')}>Servicios</a></li>
-                <li><a href="#" className={selectedOption === 'contacto' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('contacto')}>Contacto</a></li>
+                <li><a href="#nosotros" className={selectedOption === 'nosotros' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('nosotros')}>Nosotros</a></li>
+                <li><a href="#portafolio" className={selectedOption === 'portafolio' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('portafolio')}>Portafolio</a></li>
+                <li><a href="#servicios" className={selectedOption === 'servicios' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('servicios')}>Servicios</a></li>
+                <li><a href="#contacto" className={selectedOption === 'contacto' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('contacto')}>Contacto</a></li>
             </ul>
-            <a href="/" className="navButtonHireServices">Contratar</a>
+            <button className="navButtonHireServices" onClick={handleWhatsAppClick}>Contratar</button>
             <button className="navButtonHamburger" onClick={toggleDropdown}>
                 {isDropdownOpen ? (
                     <X className='closeIcon' color='#FFFFFF'/>
@@ -40,11 +45,11 @@ const Nav = () => {
             </button>
         </nav>
         <ul className={`navDropdown ${isDropdownOpen ? 'openNav' : ''}`}>
-            <li><a href="#" className={selectedOption === 'nosotros' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('nosotros')}>Nosotros</a></li>
-            <li><a href="#" className={selectedOption === 'portafolio' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('portafolio')}>Portafolio</a></li>
-            <li><a href="#" className={selectedOption === 'servicios' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('servicios')}>Servicios</a></li>
-            <li><a href="#" className={selectedOption === 'contacto' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('contacto')}>Contacto</a></li>
-            <li><a href="#" className="navButtonHireServices">Contratar</a></li>
+            <li><a href="#nosotros" className={selectedOption === 'nosotros' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('nosotros')}>Nosotros</a></li>
+            <li><a href="#portafolio" className={selectedOption === 'portafolio' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('portafolio')}>Portafolio</a></li>
+            <li><a href="#servicios" className={selectedOption === 'servicios' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('servicios')}>Servicios</a></li>
+            <li><a href="#contacto" className={selectedOption === 'contacto' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('contacto')}>Contacto</a></li>
+            <li><button className="navButtonHireServices" onClick={handleWhatsAppClick}>Contratar</button></li>
         </ul>
 
     </>
