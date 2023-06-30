@@ -55,7 +55,7 @@ const Footer = () => {
 
                 {isVisible && (
                   <button>
-                    <ArrowCircleUp fill="#707070" weight="fill" size={32} className="fixed bottom-[54px] right-2 hover:fill-kerninkYellow" onClick={scrollToTop}/>
+                    <ArrowCircleUp fill="#707070" weight="fill" size={32} className="fixed bottom-7 right-2 sm:bottom-[54px] hover:fill-kerninkYellow" onClick={scrollToTop}/>
                   </button>
                 )}
             </div>
