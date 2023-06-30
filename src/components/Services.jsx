@@ -39,7 +39,7 @@ const handleWhatsAppClick = () => {
                     <i data-aos="fade-up" data-aos-duration="1500" className="text-kerninkGrayLight text-base font-poppinsItalic block mb-5">03</i>
                     <h2 data-aos="fade-up" data-aos-duration="1500" className="text-kerninkBlack text-2xl font-poppinsRegular mb-5">Diseño de piezas<br />gráficas</h2>
                     <div data-aos="fade-up" data-aos-duration="1500" className="">
-                        <p className="max-w-[460px] text-kerninkGrayLight text-xl font-poppinsRegular mb-6">Diseñamos piezas gráficas como posts, banners, portadas, tarjetas y más, con el fin potenciar tu presencia visual.</p>
+                        <p className="max-w-[460px] text-kerninkGrayLight text-xl font-poppinsRegular mb-6">Diseñamos piezas gráficas como: post, banners, portadas, tarjetas y más, con el fin potenciar tu presencia visual.</p>
                         <h6 className="text-kerninkWhatsApp text-xl font-poppinsBold">Desde 30.000COP</h6>
                     </div>
                 </div>
