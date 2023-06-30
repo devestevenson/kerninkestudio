@@ -15,6 +15,7 @@ import IMG1 from '/src/assets/images/IMG1.jpg'
 import IMG2 from '/src/assets/images/IMG2.jpg'
 import IMG3 from '/src/assets/images/IMG3.jpg'
 import IMG4 from '/src/assets/images/IMG4.jpg'
+import IMG11 from '/src/assets/images/IMG11.jpg'
 
 
 const Carousel = () => {
@@ -38,11 +39,12 @@ const Carousel = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide><img src={IMG0} alt="Imagen 1" /></SwiperSlide>
-                <SwiperSlide><img src={IMG1} alt="Imagen 1" /></SwiperSlide>
-                <SwiperSlide><img src={IMG2} alt="Imagen 2" /></SwiperSlide>
-                <SwiperSlide><img src={IMG3} alt="Imagen 3" /></SwiperSlide>
-                <SwiperSlide><img src={IMG4} alt="Imagen 4" /></SwiperSlide>
+                <SwiperSlide><img src={IMG0} alt="portada 1" /></SwiperSlide>
+                <SwiperSlide><img src={IMG1} alt="portada 1" /></SwiperSlide>
+                <SwiperSlide><img src={IMG2} alt="portada 2" /></SwiperSlide>
+                <SwiperSlide><img src={IMG3} alt="portada 3" /></SwiperSlide>
+                <SwiperSlide><img src={IMG4} alt="portada 4" /></SwiperSlide>
+                <SwiperSlide><img src={IMG11} alt="portada 5" /></SwiperSlide>
             </Swiper>
 
         </section>
