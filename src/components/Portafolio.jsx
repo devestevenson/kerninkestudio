@@ -11,28 +11,28 @@ const Portafolio = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 place-content-center overflow-hidden">
 
             
-                <a data-aos="zoom-in" data-aos-duration="1100" href="#" className="imageStyle">
-                    <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG5} alt="" />
-                </a>
-                <a data-aos="zoom-in" data-aos-duration="1100" href="#" className="imageStyle">
-                    <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG6} alt="" />
-                </a>
+            <a data-aos="zoom-in" data-aos-duration="1100" href="https://www.instagram.com/_kernink_/" target="_blank" rel="noreferrer" className="imageStyle">
+                <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG5} alt="" />
+            </a>
+            <a data-aos="zoom-in" data-aos-duration="1100" href="https://www.instagram.com/_kernink_/" target="_blank" rel="noreferrer" className="imageStyle">
+                <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG6} alt="" />
+            </a>
             
             
-                <a data-aos="zoom-in" data-aos-duration="1100" href="#" className="imageStyle">
-                    <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG7} alt="" />
-                </a>
-                <a data-aos="zoom-in" data-aos-duration="1100" href="#" className="imageStyle">
-                    <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG8} alt="" />
-                </a>
+            <a data-aos="zoom-in" data-aos-duration="1100" href="https://www.instagram.com/_kernink_/" target="_blank" rel="noreferrer" className="imageStyle">
+                <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG7} alt="" />
+            </a>
+            <a data-aos="zoom-in" data-aos-duration="1100" href="https://www.instagram.com/_kernink_/" target="_blank" rel="noreferrer" className="imageStyle">
+                <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG8} alt="" />
+            </a>
             
             
-                <a data-aos="zoom-in" data-aos-duration="1100" href="#" className="imageStyle">
-                    <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG9} alt="" />
-                </a>
-                <a data-aos="zoom-in" data-aos-duration="1100" href="#" className="imageStyle">
-                    <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG10} alt="" />
-                </a>
+            <a data-aos="zoom-in" data-aos-duration="1100" href="https://www.instagram.com/_kernink_/" target="_blank" rel="noreferrer" className="imageStyle">
+                <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG9} alt="" />
+            </a>
+            <a data-aos="zoom-in" data-aos-duration="1100" href="https://www.instagram.com/_kernink_/" target="_blank" rel="noreferrer" className="imageStyle">
+                <img className="h-full w-full object-cover transition duration-300 hover:scale-110" src={IMG10} alt="" />
+            </a>
             
 
             
