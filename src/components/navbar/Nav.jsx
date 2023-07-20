@@ -44,7 +44,7 @@ const Nav = () => {
                 )}
             </button>
         </nav>
-        <ul className={`navDropdown ${isDropdownOpen ? 'openNav' : ''}`}>
+        <ul className={`navDropdown ${isDropdownOpen ? 'openNav' : ''}`}onClick={() => setIsDropdownOpen(false)}>
             <li><a href="#nosotros" className={selectedOption === 'nosotros' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('nosotros')}>Nosotros</a></li>
             <li><a href="#portafolio" className={selectedOption === 'portafolio' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('portafolio')}>Portafolio</a></li>
             <li><a href="#servicios" className={selectedOption === 'servicios' ? 'navBoxLink active' : 'navBoxLink'} onClick={() => handleOptionClick('servicios')}>Servicios</a></li>
