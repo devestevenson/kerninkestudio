@@ -7,16 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        kerninkYellow: "#FAE000",
-        kerninkWhite: "#FFFFFF",
-        kerninkGrayLight: "#707070",
-        kerninkGrayDark: "#2D2D2D",
-        kerninkBlack: "#161616",
-        kerninkWhatsApp: "#128C7E"
+        cYellow: "#FAE000",
+        cWhite: "#FFFFFF",
+        cGrayLight: "#707070",
+        cGrayDark: "#2D2D2D",
+        cBlack: "#161616",
+        cWhatsApp: "#128C7E"
       },
       fontFamily: {
         poppinsItalic: ['poppinsItalic'],
         poppinsRegular: ['poppinsRegular'],
+        poppinsMedium: ['poppinsMedium'],
+        poppinsSemibold: ['poppinsSemibold'],
         poppinsBold: ['poppinsBold'],
       },
     },

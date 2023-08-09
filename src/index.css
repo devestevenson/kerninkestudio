@@ -16,6 +16,16 @@
     font-display: swap;
 }
 @font-face {
+  font-family: "poppinsMedium";
+  src: url('./assets/fonts/Poppins-Medium.ttf');
+  font-display: swap;
+}
+@font-face {
+  font-family: "poppinsSemibold";
+  src: url('./assets/fonts/Poppins-SemiBold.ttf');
+  font-display: swap;
+}
+@font-face {
     font-family: "poppinsBold";
     src: url('./assets/fonts/Poppins-Bold.ttf');
     font-display: swap;
@@ -29,20 +39,23 @@ html {
 /* tailwind components */
 @layer components {
     .btnNav {
-        @apply py-4 px-8 bg-kerninkYellow rounded-md max-w-max  text-xl font-poppinsRegular text-kerninkBlack transition duration-300 hover:text-kerninkBlack hover:bg-kerninkWhite
+        @apply py-4 px-8 bg-cYellow rounded-md max-w-max  text-xl font-poppinsRegular text-cBlack transition duration-300 hover:text-cBlack hover:bg-cWhite
     }
     .btnAbout {
-        @apply py-4 px-8 border rounded-md max-w-max  text-2xl font-poppinsRegular text-kerninkWhite transition duration-300 hover:text-kerninkBlack hover:bg-kerninkWhite
+        @apply py-4 px-8 border rounded-md max-w-max  text-2xl font-poppinsRegular text-cWhite transition duration-300 hover:text-cBlack hover:bg-cWhite
     }
     .btnPortafolio {
-        @apply py-4 px-8 bg-kerninkBlack rounded-md max-w-max  text-2xl font-poppinsRegular text-kerninkWhite transition duration-300 hover:text-kerninkBlack hover:bg-kerninkWhite
+        @apply py-4 px-8 bg-cBlack rounded-md max-w-max  text-2xl font-poppinsRegular text-cWhite transition duration-300 hover:text-cBlack hover:bg-cWhite
     }
     .btnServices {
-        @apply py-4 px-8 bg-kerninkYellow rounded-md max-w-max  text-2xl font-poppinsRegular text-kerninkBlack transition duration-300 hover:text-kerninkBlack hover:bg-kerninkWhite
+        @apply py-4 px-8 bg-cYellow rounded-md max-w-max  text-2xl font-poppinsRegular text-cBlack transition duration-300 hover:text-cBlack hover:bg-cWhite
     }
     .btnWhatsApp {
-        @apply py-4 px-8 border border-kerninkWhatsApp rounded-[3rem] max-w-max  text-2xl font-poppinsRegular text-kerninkWhatsApp transition duration-300 hover:text-kerninkWhite hover:bg-kerninkWhatsApp
+        @apply py-4 px-8 border border-cWhatsApp rounded-[3rem] max-w-max  text-2xl font-poppinsRegular text-cWhatsApp transition duration-300 hover:text-cWhite hover:bg-cWhatsApp
     }
+    .btnCotizar {
+      @apply py-4 px-8 bg-cBlack rounded-[3rem] max-w-max  text-2xl font-poppinsRegular text-cYellow transition duration-300 hover:text-cBlack hover:bg-cYellow
+  }
     .imageStyle {
         @apply w-[322px] h-[322px] border-4 overflow-hidden border-zinc-800 rounded-xl
     }
@@ -50,7 +63,6 @@ html {
 
 
 /* Estilos para la barra de desplazamiento */
-/* WebKit (Google Chrome, Safari, etc.) */
 ::-webkit-scrollbar {
     width: 10px;
   }

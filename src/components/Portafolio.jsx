@@ -8,6 +8,9 @@ import IMG10 from "/src/assets/images/IMG10.jpg";
 const Portafolio = () => {
   return (
     <div id="portafolio" className="flex justify-center items-center flex-col mt-[100px] px-5 md:px-10">
+
+        <h2 className="text-base text-cWhite font-poppinsBold mb-5">ALGUNOS TRABAJOS REALIZADOS</h2>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 place-content-center overflow-hidden">
 
             
@@ -37,13 +40,11 @@ const Portafolio = () => {
 
             
         </div>
-        <a href="#servicios" data-aos="zoom-in" data-aos-duration="1100" className="btnServices mt-[50px]">
+        {/* <a href="#servicios" data-aos="zoom-in" data-aos-duration="1100" className="btnServices mt-[50px]">
             Servicios
-        </a>
+        </a> */}
     </div>
   )
 }
 
 export default Portafolio
-
-{/* <div className="w-[300px] h-[600px] bg-green-600">1</div> */}

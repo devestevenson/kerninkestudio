@@ -15,8 +15,6 @@ import IMG1 from '/src/assets/images/IMG1.jpg'
 import IMG2 from '/src/assets/images/IMG2.jpg'
 import IMG3 from '/src/assets/images/IMG3.jpg'
 import IMG4 from '/src/assets/images/IMG4.jpg'
-import IMG11 from '/src/assets/images/IMG11.jpg'
-
 
 const Carousel = () => {
   return (
@@ -44,7 +42,6 @@ const Carousel = () => {
                 <SwiperSlide><img src={IMG2} alt="portada 2" /></SwiperSlide>
                 <SwiperSlide><img src={IMG3} alt="portada 3" /></SwiperSlide>
                 <SwiperSlide><img src={IMG4} alt="portada 4" /></SwiperSlide>
-                <SwiperSlide><img src={IMG11} alt="portada 5" /></SwiperSlide>
             </Swiper>
 
         </section>

@@ -12,6 +12,7 @@ import Contact from "./components/Contact"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Preloader from './components/PreLoader'
+import Brands from './components/brands/Brands'
 
 function App() {
 
@@ -30,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App bg-kerninkBlack">
+    <div className="App bg-cBlack">
         {isLoading ? (
           <Preloader />
         ) : (
@@ -39,8 +40,9 @@ function App() {
             <Hero />
             <Carousel />
             <About />
-            <Portafolio />
             <Services />
+            <Portafolio />
+            <Brands />
             <Contact />
             <Footer />
           </div>
