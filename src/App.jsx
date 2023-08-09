@@ -35,7 +35,7 @@ function App() {
         {isLoading ? (
           <Preloader />
         ) : (
-          <div className="w-full max-w-screen-2xl h-auto m-auto bg-kerninkBlack">
+          <div className="w-full max-w-screen-2xl h-auto m-auto bg-cBlack">
             <Nav />
             <Hero />
             <Carousel />
